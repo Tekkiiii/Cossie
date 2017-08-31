@@ -1,0 +1,100 @@
+@charset "utf-8";
+body {
+	background-image: url("images/bg.jpg");
+	background-size: cover;	
+}
+
+.header 
+{ 
+	margin: auto;
+	width: 20em;
+	background-color: white;
+}
+
+.footer 
+{
+	width: auto;
+	background-color: white;
+	position: fixed;
+	bottom: 0;
+	border-style: inset;
+}
+.nav
+{
+	margin:auto;
+	width: 50em;
+	background-color: #71bcf4;
+}
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #71bcf4;
+}
+
+.nav li {
+    float: left;
+}
+
+.nav li a {
+    display: block;
+    color: darkblue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav li a:hover {
+    background-color: #111;
+}
+
+.nav li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.nav .active {
+    background-color: #0064a2;
+	color: white;
+}
+div.bigbox
+{
+	margin: auto;
+	background-color: white;
+	width: 60em;
+	box-sizing: border-box;
+	display: flex;
+	border-style: transparent;
+	
+}
+
+
+div.bigboxg
+{
+	margin: auto;
+	background-color: white;
+	width: 60em;
+	box-sizing: border-box;
+	display: flex;
+	border-style: transparent;
+}
+
+div.column1
+{
+	background-color: blue;
+	width: 39em;
+	margin-right: 1em;
+}
+
+div.column2
+{
+	background-color: blue;
+	width: 19em;
+	margin-left: 1em;
+}
+
+div.logo
+{
+	margin: auto;
+	width: 600px;
+}
