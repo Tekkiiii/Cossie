@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>CossiePlay - Event Register</title>
+<link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<header>
+	<div class="container">
+		<img src="images/logo.png" height="50px; " 	href="index.html" alt="Your broswer doesnt support this type of image">
+		<nav>
+			<ul>
+  <li><a href="index.html">Home</a></li>  
+  <li><a href="about.html">About</a></li>
+  <li class="current"><a href="events.html"> Event</a></li>
+  <li><a href="shop.html">Shop</a></li>
+  <li><a href="contact.html">Contact</a></li>
+</ul>
+		</nav>
+	</div>
+	</header>
+	
+	<section id="main">
+		<div class="container">
+		<h1 class="mid-heading"> Party Registration Form</h1>
+				<div class="dark_m">
+					<div class="form">
+					<h1 class="mid-heading"> Thank you for registering! Please check your email for more details </h1>
+			</div>
+	</section>
+
+<footer>
+	<p> CossiePlay, Copyright @ Tekki, 2017 </p>
+	</footer>
+
+</body>
+</html>
